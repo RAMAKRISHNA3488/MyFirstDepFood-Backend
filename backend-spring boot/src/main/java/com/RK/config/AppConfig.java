@@ -48,8 +48,7 @@ public class AppConfig {
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
-                    "https://zosh-food.vercel.app",
-                    "https://foodies-nu-sage.vercel.app/",
+                    "https://foodies-fawn.vercel.app/",
                     "http://localhost:4200"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
