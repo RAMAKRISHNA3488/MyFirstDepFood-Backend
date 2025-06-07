@@ -49,6 +49,8 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
                     "https://foodies-fawn.vercel.app/",
+                    "https://foodies-fawn.vercel.app/",
+                    "https://foodies-git-master-ramakrishna3488s-projects.vercel.app/",
                     "http://localhost:4200"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
